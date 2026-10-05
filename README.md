@@ -4,7 +4,7 @@ Hands-on cloud infrastructure labs (AWS, Linux, Terraform, Kubernetes).
 Bigger projects live in their own repositories.
 
 ## Phase 0 · Foundations
-- [ ] Git & GitHub workflow → `a1-git/`
+- [x] Git & GitHub workflow → `a1-git/`
 - [ ] Python for automation → `a2-python/`
 - [ ] My own API (FastAPI) → [my-api](https://github.com/maehoo/my-api)
 - [ ] Linux server setup → `b1-linux-server/`
