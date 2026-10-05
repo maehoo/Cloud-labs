@@ -1,6 +1,6 @@
 # Cloud-labs
 
-Cloud infrastructure practice log (version B).
+Hands-on cloud infrastructure labs (AWS, Linux, Terraform, Kubernetes).
 Bigger projects live in their own repositories.
 
 ## Phase 0 · Foundations
