@@ -1,6 +1,6 @@
 # Cloud-labs
 
-Hands-on cloud labs, built while learning (version A).
+Hands-on cloud infrastructure labs (AWS, Linux, Terraform, Kubernetes).
 Bigger projects live in their own repositories.
 
 ## Phase 0 · Foundations
