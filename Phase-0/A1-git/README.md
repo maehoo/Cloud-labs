@@ -1,11 +1,17 @@
 # A1: Git & GitHub Workflow
 
-## What I did
-- Created this repository from the terminal (`git init`, `gh repo create`)
-- Practiced branch → pull request → merge (PR #1–#8)
-- Made a merge conflict on purpose and resolved it (PR #3, #4)
-- Stopped tracking an already-committed file with `git rm --cached` (PR #5)
-- Added a PR template and closed an issue from a PR (PR #6, #8 / issue #7)
+Learning the real-world Git workflow from the terminal: branch → pull request → review → merge.
+
+## Steps
+| Step | What I did | Key commands | PR |
+|---|---|---|---|
+| 1 | Created this repository from the terminal | `git init -b main`, `gh repo create --push` | (first commit) |
+| 2 | First PR on the GitHub website: added `.gitignore` | `git switch -c`, `git push -u origin` | [#1](https://github.com/maehoo/Cloud-labs/pull/1) |
+| 3 | Created and merged a PR from the terminal: added the lab list to README | `gh pr create --fill`, `gh pr merge` | [#2](https://github.com/maehoo/Cloud-labs/pull/2) |
+| 4 | Made a merge conflict on purpose and resolved it | `git fetch`, `git merge origin/main` | [#3](https://github.com/maehoo/Cloud-labs/pull/3), [#4](https://github.com/maehoo/Cloud-labs/pull/4) |
+| 5 | Stopped tracking an already-committed file | `git rm --cached` | [#5](https://github.com/maehoo/Cloud-labs/pull/5) |
+| 6 | Added a PR template and closed an issue from a PR | `.github/pull_request_template.md`, `closes #7` | [#6](https://github.com/maehoo/Cloud-labs/pull/6), [#8](https://github.com/maehoo/Cloud-labs/pull/8) |
+| + | Wrote this note and moved labs into phase folders | `git mv`, `git commit --amend` | [#10](https://github.com/maehoo/Cloud-labs/pull/10) |
 
 ## What I learned
 - `git commit` saves changes only on my computer. `git push` sends them to GitHub, and `git pull` brings GitHub's changes back.
